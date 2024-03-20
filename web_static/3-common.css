@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #484848;
+}
+
+footer, header {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+}
+
+footer {
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+}
+
+header {
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 100px; /* Adjust the width of the logo as per your requirement */
+    height: 100%;
+    margin-left: 20px;
+    background-image: url('../images/logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
